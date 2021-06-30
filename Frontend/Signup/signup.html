@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="../public/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container" >
+        <div class="sign-up-form">
+            <i class="material-icons" style="font-size:48px">account_circle</i>
+            <h1>Create Your Account</h1>
+            <form onsubmit="signup(event)" >
+                <input type="name" name="name" class="input-box" placeholder="Enter Name" required />
+                <input type="email" name="email" class="input-box" placeholder="Enter Email" required />
+                <input type="phone" name="phone" class="input-box" placeholder="Enter Phone Number" required />
+                <input type="password" name="password" class="input-box" placeholder="Enter Password" required />
+                <br>
+                <button class="signup-btn">Sign Up</button>
+            </form>
+
+            <p>Already have an account? <a href="../Login/login.html" >Sign In</a></p>
+        </div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./signup.js"></script>
+
+    </div>
+</body>
+</html>
+
+
