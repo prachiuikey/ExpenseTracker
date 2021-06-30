@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1584208320070-54631de3a8c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmFja2dyb3VuZCUyMHNlYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    margin: 50px 40%;
+}
+
+.sign-up-form h1 {
+    color: rgb(29, 98, 228);
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background-color: blue;
+}
+
+.google-btn {
+    background-color: rgb(53, 53, 223);
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+.material-icons {
+    color: rgb(29, 98, 228);
+    /* margin-top: -50px; */
+}
